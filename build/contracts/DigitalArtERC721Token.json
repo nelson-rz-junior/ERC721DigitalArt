@@ -1,0 +1,74 @@
+{
+  "contractName": "DigitalArtERC721Token",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/DigitalArtERC721Token.sol\":\"DigitalArtERC721Token\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/DigitalArtERC721Token.sol\":{\"keccak256\":\"0xa8de4a2f1d8784a92530049d729b3578e45083fe35fe6870134d656ed1d95638\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://ad497019a27edd28d56804114ce9647ead30d179976c018fe7f033f490220995\",\"dweb:/ipfs/QmQAkKYYiA8gts6JbBuPnEys24FhdmkDdh7AJgnHTVcHRV\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220e1e29e70ee610c313309062feec6233ccc7dc196e753e314140a670ba083af6464736f6c634300080f0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220e1e29e70ee610c313309062feec6233ccc7dc196e753e314140a670ba083af6464736f6c634300080f0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "64:41:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "64:41:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity 0.8.15;\r\n\r\ncontract DigitalArtERC721Token {\r\n    \r\n}",
+  "sourcePath": "D:\\Projects\\BookLearnEthereum\\Chapter06\\DigitalArtERC721Token\\contracts\\DigitalArtERC721Token.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/DigitalArtERC721Token.sol",
+    "exportedSymbols": {
+      "DigitalArtERC721Token": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "GPL-3.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".15"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "37:23:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "DigitalArtERC721Token",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "DigitalArtERC721Token",
+        "nameLocation": "73:21:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "64:41:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "37:68:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.15+commit.e14f2714.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.8",
+  "updatedAt": "2022-07-12T02:20:05.109Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
