@@ -86,7 +86,7 @@ contract DigitalArt is ERC721 {
         require(bytes(_title).length > 0, 'The title cannot be empty');
         require(bytes(_date).length > 0, 'The date cannot be empty');
         require(bytes(_description).length > 0, 'The description cannot be empty');
-        require(_price < 0, 'The price cannot be empty');
+        require(_price > 0, 'The price cannot be empty');
         require(bytes(_image).length > 0, 'The image cannot be empty');
 
         Art memory _art = Art({
@@ -191,7 +191,7 @@ contract DigitalArt is ERC721 {
         }
     }
 
-    function findAllPendingArt() public view returns (uint256[] memory, address[] memory, address[] memory, uint[] memory) {
+    function findAllPendingArts() public view returns (uint256[] memory, address[] memory, address[] memory, uint[] memory) {
         if (pendingArtCount == 0) {
             return (new uint256[](0), new address[](0), new address[](0), new uint256[](0));
         }
